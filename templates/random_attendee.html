@@ -1,0 +1,20 @@
+$def with (attendee)
+<html>
+    <head>
+        <title>$attendee['name']</title>
+        <style type="text/css">
+            body {
+                margin-top: 10%;
+                text-align: center;
+                font-size: 70pt;
+                font-weight: bold;
+                font-family: Verdana;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="$attendee['picture']" height="250"/>
+        <br>
+        $attendee['name']
+    </body>
+</html>

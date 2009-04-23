@@ -1,0 +1,17 @@
+from rdflib import Namespace
+
+swc = Namespace('http://data.semanticweb.org/ns/swc/ontology#')
+foaf = Namespace('http://xmlns.com/foaf/0.1/')
+dcterms = Namespace('http://purl.org/dc/terms/')
+xsd = Namespace('http://www.w3.org/2001/XMLSchema#')
+geo = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
+owl = Namespace('http://www.w3.org/2002/07/owl#')
+bio = Namespace('http://purl.org/vocab/bio/0.1/')
+rel = Namespace('http://purl.org/vocab/relationship/')
+psych = Namespace('http://purl.org/vocab/psychometric-profile/')
+post = Namespace('http://www.w3.org/2003/01/geo/wgs84_pos#')
+cc = Namespace('http://creativecommons.org/ns#')
+xhtml = Namespace('http://www.w3.org/1999/xhtml/vocab#')
+wot = Namespace('http://xmlns.com/wot/0.1/')
+pim = Namespace('http://www.w3.org/2000/10/swap/pim/contact#')
+dce = Namespace('http://purl.org/dc/elements/1.1/')
